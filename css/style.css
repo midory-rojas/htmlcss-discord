@@ -1,0 +1,136 @@
+/* RESET */
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+/* COMMON */
+
+.container1 {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Typography */
+body {
+    background-color: rgb(255, 255, 255);
+}
+/* Utlities */
+
+/* Layout */
+/* HEADER */
+header {
+    background-color: lightblue;
+    padding:10px;
+}
+
+.menu {
+    background: orange;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid;
+}
+
+.menu > div {
+    width: 100%;
+}
+
+
+/* MAIN */
+/* Container 2 */
+.inizio{
+    background-color:rgb(13, 13, 65);
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height: 300px;
+    padding: 20px;
+}
+.inizio .cielo {
+    background-color:rgb(243, 164, 243);
+    width:60%;
+    height:200px;
+    border: 1px solid;
+}
+/* Container 3,4,5 */
+.colonne {
+    display: flex;
+    justify-content: center;
+    padding:20px;
+    background-color: white;
+}
+.colonne .box {
+    border: 1px solid;
+}
+.blue {
+    background-color: rgb(79, 133, 190);
+    width:70%;
+    height:200px;
+}
+.pink {
+    background-color: rgb(239, 179, 189);
+    width:30%;
+    height:200px;
+}
+/* Container 6 */
+.sei {
+    background-color:rgb(192, 187, 187);
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height: 500px;
+    padding: 20px;
+}
+.sei .green {
+    background-color:rgb(164, 241, 164);
+    width:60%;
+    height:400px;
+    border: 1px solid;
+}
+/* Container 7 */
+.sette {
+    background-color: rgb(31, 29, 29);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height: 500px;
+    padding:50px;
+}
+
+.sette .pink{
+    background-color: rgb(231, 140, 155);
+    width:50%;
+    height:400px;
+
+}
+.sette .acqua {
+    background-color:rgb(65, 184, 135);
+    width:50%;
+    height:400px;
+    border: 1px solid;
+    border-color: white;
+    max-width: 800px;
+}
+/* FOOTER */
+.container8 {
+    max-width: 800px;
+    margin: 0 auto;
+}
+footer {
+    background-color: rgb(31, 29, 29);
+    padding:10px;
+    margin:0 auto;
+}
+.fine {
+    background: rgb(79, 230, 227);
+    padding: 10px;
+    display: flex;
+    border: 1px solid;
+    padding:10px;
+}
+.fine > div {
+    width: 100%;
+}
+
+
