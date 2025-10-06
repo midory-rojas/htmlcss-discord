@@ -5,18 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css" />
 </head>
 
 <body>
     <!--Inizio Header-->
     <header>
-        <nav class="container flex">
+        <nav class="container flex justify-between">
             <div class="header-logo">
                 <img src="img/logo.svg" alt="" srcset="">
             </div>
-            <ul  class="flex">
+            <ul class="flex">
                 <li>
                     <a href="">Scarica</a>
                 </li>
@@ -36,60 +38,75 @@
             <div class="header-actions ">
                 <a href="">Accedi</a>
             </div>
-        </div>
     </header>
     <!--Fine Header-->
     <main>
-        <!--Inizio Container 2-->
+        <!--Hero section-->
         <section class="hero-section">
-        <div class="hero-content">
-            <div class="title"><h1>Il tuo posto per parlare</h1></div>
-                 <p>Che tu faccia parte di un club scolastico, gruppo di gamer, comunità artistica mondiale,
-                    o semplicemente di un piccolo gruppo di amici che vuole passare il tempo assieme,
-                     Discord rende più facile chiacchierare ogni giorno e ritrovarsi più spesso.</p>
+            <div class="hero-content">
+                <div class="tittle">
+                    <h1>Il tuo posto per parlare</h1>
+                    <p>Che tu faccia parte di un club scolastico, gruppo di gamer, comunità artistica mondiale,
+                o semplicemente di un piccolo gruppo di amici che vuole passare il tempo assieme,
+                Discord rende più facile chiacchierare ogni giorno e ritrovarsi più spesso.</p>
+                </div>
             <div class="menu">
                 <nav class="actions-nav">
                     <a class="btn btn-white" href="">&DownArrow; Scarica per Mac</a>
                     <a class="btn btn-black" href="">Apri Discord nel tuo browser</a>
                 </nav>
             </div>
-        </div>
         </section>
-        <!--Fine Container 2-->
-        <!--Inizio Container 3 con sfondo bianco-->
-        
-        <div class="colonne">
-            <div class="box blue"></div>
-            <div class="box pink"></div>
-        </div>
-        <!--Fine Container 3-->
-        <!--Inizio Container 4-->
-        <div class="colonne">
-            <div class="box pink"></div>
-            <div class="box blue"></div>
-        </div>
-        <!--Fine Container 4-->
-        <!--Inizio Container 5-->
-        <div class="colonne">
-            <div class="box blue"></div>
-            <div class="box pink"></div>
-        </div>
-        <!--Fine Container 5-->
-        <!--Inizio Container 6-->
-        <div class="sei">
-            <div class="box green"></div>
-        </div>
-        <!--Fine Container 6-->
-        <!--Inizio Container 7-->
-        <div class="sette">
-            <div class="box pink"></div>
-            <div class="box acqua"></div>
-            <div class="box acqua"></div>
-            <div class="box acqua"></div>
-            <div class="box acqua"></div>
-            
-        </div>
-        <!--Fine Container 7-->
+        <section class="py-30">
+            <div class="container flex">
+                <div class="col.60 ">
+                <img src="./img/item1.svg" alt="immagine 1" />
+                </div>
+                <div class="col.40">
+                <h2>Un luogo a invito con tutto lo spazio necessario per parlare</h2>
+                <p>I server discord sono organizzati in canali tematici in cui puoi collaborare, condividere o
+                    semplicemente parlare della tua giornaata senza intasare una chat di gruppo.</p>
+                </div>
+            </div>
+        </section>
+        <section class="py-30 bg-gray">
+            <div class="container flex row-reverse">
+                <div class="col.60">
+                <img src="./img/item2.svg" alt="immagine 2" />
+                </div>
+                <div class="col.40">
+                <h2>Dove trovarsi è facile</h2>
+                <p>Mettiti comodo in un canale vocale quando hai tempo. Gli amici nel tuo server possono vedere che sei
+                    li e unirsi istantaneamente senza dover chiamare.</p>
+                </div>
+            </div>
+        </section>
+        <section class="py-30">
+            <div class="container flex">
+                <div class="col.60">
+                <img src="./img/item3.svg" alt="immagine 3" />
+                </div>
+                <div class="col.40">
+                <h2>Da pochi a un fandon</h2>
+                <p>Dai inizio a una community di qualsiasi dimensione con strumenti di moderazione e accesso ai membri
+                    personalizzabile.
+                    Concedi ai membri poteri speciali, crea canali privati, e molto altro.</p>
+                </div>   
+            </div>
+        </section>
+        <section class="py-30 bg-gray">
+            <div class="container flex row-reverse">
+                <div class="col.60">
+                <img src="./img/item3.svg" alt="immagine 3" />
+                </div>
+                <div class="col.40">
+                <h2>Da pochi a un fandon</h2>
+                <p>Dai inizio a una community di qualsiasi dimensione con strumenti di moderazione e accesso ai membri
+                    personalizzabile.
+                    Concedi ai membri poteri speciali, crea canali privati, e molto altro.</p>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer>
@@ -103,4 +120,5 @@
         <!--Fine Footer-->
     </footer>
 </body>
+
 </html>

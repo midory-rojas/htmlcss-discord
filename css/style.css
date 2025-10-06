@@ -4,6 +4,11 @@
     margin:0;
     box-sizing: border-box;
 }
+body {
+    font-family: sans-serif;
+}
+
+
 /* COMMON */
 /* Layout */
 .container {
@@ -11,12 +16,16 @@
     max-width: 1000px;
     margin: 0 auto;
 }
+.col-60{
+    width:60%;
 
-/* Utlities */
+}
+.col-40{
+    width:40%; 
+}
 
-/* Layout */
+
 /* HEADER */
-
 header {
     background-color: rgb(38, 97, 174);
     display:flex;
@@ -28,42 +37,53 @@ header {
     width:20%;
 }
 .header-actions {
-    text-align: center;
     background-color: white;
     text-decoration:none;
     border-radius: 5px; 
     padding: 10px;
     margin: 0 auto;
+    text-align: right;
+    max-width: 100px;
 }
-.flex {
-    display:flex;
-    flex-direction:row;
-    justify-content: space-between;
-}
-.justify-between {
-    justify-content: space-between;
-}
-header ul{
+header ul {
     gap: 20px;
-    list-style-type: none;
+    list-style: none;
 }
 .menu {
     padding: 20px;
     justify-items: center;
 }
 
-
+/* Utlities */
+.flex {
+    display:flex;
+    flex-direction:row;
+  
+}
+.justify-between {
+    justify-content: space-between;
+}
+.py-30 {
+    padding-top: 30px;
+    padding-bottom:  30px;
+}
+.bg-gray {
+    background-color: lightgray;
+}
+.row-reverse {
+    flex-direction:row-reverse;
+}
 
 /* MAIN */
-/* Container 2 */
+
 .hero-content {
     background-color:rgb(68, 68, 213);
-    height: 250px;
     padding: 20px;
     background-image: url(../img/jumbo.png);
     background-size: cover;
     background-position: center;
     color:beige;
+    min-height:300px;
 }
 
 h1 {
@@ -98,85 +118,9 @@ p {
 }
 
 
-/* Container 3,4,5 */
-.colonne {
-    display: flex;
-    justify-content: center;
-    padding:20px;
-    background-color: white;
-}
-.colonne .box {
-    border: 1px solid;
-}
 
-.blue {
-    background-color: rgb(79, 133, 190);
-    width:70%;
-    height:200px;
-}
-.pink {
-    background-color: rgb(239, 179, 189);
-    width:30%;
-    height:200px;
-}
-/* Container 6 */
-.sei {
-    background-color:rgb(192, 187, 187);
-    display:flex;
-    justify-content: center;
-    align-items:center;
-    height: 500px;
-    padding: 20px;
-}
-.sei .green {
-    background-color:rgb(164, 241, 164);
-    width:60%;
-    height:400px;
-    border: 1px solid;
-}
-/* Container 7 */
-.sette {
-    background-color: rgb(31, 29, 29);
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    height: 500px;
-    padding:50px;
-}
+   
 
-.sette .pink{
-    background-color: rgb(231, 140, 155);
-    width:50%;
-    height:400px;
 
-}
-.sette .acqua {
-    background-color:rgb(65, 184, 135);
-    width:50%;
-    height:400px;
-    border: 1px solid;
-    border-color: white;
-    max-width: 800px;
-}
-/* FOOTER */
-.container8 {
-    max-width: 800px;
-    margin: 0 auto;
-}
-footer {
-    background-color: rgb(31, 29, 29);
-    padding:10px;
-    margin:0 auto;
-}
-.fine {
-    background: rgb(79, 230, 227);
-    padding: 10px;
-    display: flex;
-    border: 1px solid;
-    padding:10px;
-}
-.fine > div {
-    width: 100%;
-}
 
 
