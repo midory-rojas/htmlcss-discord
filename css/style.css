@@ -74,6 +74,7 @@ header ul {
     flex-direction:row-reverse;
 }
 
+
 /* MAIN */
 
 .hero-content {
@@ -115,6 +116,23 @@ p {
 }
 .menu{
     justify-content: center;
+}
+
+/*Footer */
+footer {
+    background-color:rgb(52, 51, 51);
+}
+.large,
+.small{
+    min-height:200px;
+    border:1px solid black;
+}
+.large {
+    width:30%;
+    color:rgb(149, 142, 157); 
+}
+.small {
+    width:calc(70% / 4);
 }
 
 
